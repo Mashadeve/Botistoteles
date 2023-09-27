@@ -33,7 +33,7 @@ quotes = ['Learning is a daily thing, wisdom an endless pursuit. -Unknown',
 async def on_ready():
     channel = bot.get_channel(general_id)
     if channel:
-        await channel.send(f'Botistoteles is here,   (⌐■_■)☞')
+        await channel.send(f'(⌐■_■)☞ \nBotistoteles is here')
     
 
 @bot.event
