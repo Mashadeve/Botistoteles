@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 with open('database.json') as database_file:
     database = database_file.read()
 
-quote_dict = json.loads(database)
+data = json.loads(database)
 
 load_dotenv()
 TOKEN = os.getenv('TOKEN')
@@ -31,10 +31,19 @@ async def on_message(message):
         return
     
     if message.content.startswith('!hello'):
-        await message.channel.send('Hello!')
+        random_index = random.randint(0, len(data["greetings"])-1)
+        await message.channel.send(f'{data["greetings"][random_index]["hello"]} {data["greetings"][random_index]["greeting"]}')
+    
+    if message.content.startswith('!im good'):
+        random_index = random.randint(0, len(data["positive"]) -1)
+        await message.channel.send(f'{data["positive"][random_index]["good"]}')
+
+    if message.content.startswith('!not good'):
+        random_index = random.randint(0, len(data["negative"]) -1)
+        await message.channel.send(f'{data["negative"][random_index]["bad"]}')
 
     if message.content.startswith('!quote'):
-        random_index = random.randint(0, len(quote_dict["quotes"])-1)
-        await message.channel.send(f'{quote_dict["quotes"][random_index]["quote"]}\n-{quote_dict["quotes"][random_index]["name"]}')
+        random_index = random.randint(0, len(data["quotes"])-1)
+        await message.channel.send(f'{data["quotes"][random_index]["quote"]}\n-{data["quotes"][random_index]["name"]}')
 
 bot.run(TOKEN)

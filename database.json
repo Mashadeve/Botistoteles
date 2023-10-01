@@ -16,4 +16,23 @@
     {"name":"Unknown", "quote": "Learning is a daily thing, wisdom an endless pursuit."},
     {"name":"Thomas Edison", "quote": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time."},
     {"name":"Zeno of Citium", "quote": "The reason why we have two ears and only one mouth is so we should listen more and talk less."}
+], "greetings": [
+    {"hello": "Hello there!", "greeting": "How are you doing?"},
+    {"hello": "Howdy!", "greeting": "How's your day been my friend?"},
+    {"hello": "Hola amigo!", "greeting": "Que pasa?"},
+    {"hello": "Hi!", "greeting": "Have you been doing well?"},
+    {"hello": "Greetings!", "greeting": "How's life treating you?"},
+    {"hello": "Gia sou!", "greeting": "Pos e-se?"}
+], "positive": [
+    {"good": "Brilliant!"},
+    {"good": "Nice to hear that!"},
+    {"good": "Excellent!"},
+    {"good": "Makes me happy to hear that!"},
+    {"good": "I love it!"}
+], "negative": [
+    {"bad": "Sorry to hear that buddy, try so of my quotes to brighten up your day! Ps. You get them by typing !quote"},
+    {"bad": "Sometimes life sucks balls but it gets better, it always does!"},
+    {"bad": "Hmh.. I feel you buddy, these times you gotta make life worth of living and do something you enjoy!"},
+    {"bad": "We all have bad days, but tomorrow could be anything!"},
+    {"bad": "Life always wins, even mom said that! Cheer yourself up with some quotes you can get them by typing !quote"}
 ]}
