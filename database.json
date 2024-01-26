@@ -1,38 +1,72 @@
-{"quotes": [
-    {"name":"Cato", "quote": "Bitter are the roots of study, but how sweet is their fruit."},
-    {"name":"Epictetus", "quote": "If you want to improve, be content to be thought foolish and stupid."},
-    {"name":"Epictetus", "quote": "The key is to keep company only with people who uplift you, whose presence calls forth your best."},
-    {"name":"Epictetus", "quote": "How long can you afford to put off who you really want to be? Your nobler self cannot wait any longer. Decide to be extraordinary and do what you need to do now."},
-    {"name":"Marcus Aurelius", "quote": "Just because something is hard to master, do not think it is humanly impossible, but, if a thing is humanly possible, consider it within your reach."},
-    {"name":"Marcus Aurelius", "quote": "Because other people are fools, must you be so too?"},
-    {"name":"Marcus Aurelius", "quote": "The things you think about determine the quality of your mind."},
-    {"name":"Marcus Aurelius", "quote": "Today I escaped anxiety. Or no, I discarded it, because it was within me, in my own perceptions — not outside."},
-    {"name":"Ralph Waldo Emerson", "quote": "The world makes way for the man who knows where he is going."},
-    {"name":"Ryan Holiday", "quote": "We must remember, there is no easy way."},
-    {"name":"Seneca", "quote": "If a man knows not to which port he sails, no wind is favorable."},
-    {"name":"Seneca", "quote": "We suffer more often in imagination than in reality."},
-    {"name":"Seneca", "quote": "Difficulties strengthen the mind as labor does the body."},
-    {"name":"Seneca", "quote": "It is the power of the mind to be unconquerable."},
-    {"name":"Unknown", "quote": "Learning is a daily thing, wisdom an endless pursuit."},
-    {"name":"Thomas Edison", "quote": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time."},
-    {"name":"Zeno of Citium", "quote": "The reason why we have two ears and only one mouth is so we should listen more and talk less."}
-], "greetings": [
-    {"hello": "Hello there!", "greeting": "How are you doing?"},
-    {"hello": "Howdy!", "greeting": "How's your day been my friend?"},
-    {"hello": "Hola amigo!", "greeting": "Que pasa?"},
-    {"hello": "Hi!", "greeting": "Have you been doing well?"},
-    {"hello": "Greetings!", "greeting": "How's life treating you?"},
-    {"hello": "Gia sou!", "greeting": "Pos e-se?"}
-], "positive": [
-    {"good": "Brilliant!"},
-    {"good": "Nice to hear that!"},
-    {"good": "Excellent!"},
-    {"good": "Makes me happy to hear that!"},
-    {"good": "I love it!"}
-], "negative": [
-    {"bad": "Sorry to hear that buddy, try so of my quotes to brighten up your day! Ps. You get them by typing !quote"},
-    {"bad": "Sometimes life sucks balls but it gets better, it always does!"},
-    {"bad": "Hmh.. I feel you buddy, these times you gotta make life worth of living and do something you enjoy!"},
-    {"bad": "We all have bad days, but tomorrow could be anything!"},
-    {"bad": "Life always wins, even mom said that! Cheer yourself up with some quotes you can get them by typing !quote"}
-]}
+{
+  "quotes": [
+    {
+      "name": "Cato",
+      "quote": "Bitter are the roots of study, but how sweet is their fruit."
+    },
+    {
+      "name": "Epictetus",
+      "quote": "If you want to improve, be content to be thought foolish and stupid."
+    },
+    {
+      "name": "Epictetus",
+      "quote": "The key is to keep company only with people who uplift you, whose presence calls forth your best."
+    },
+    {
+      "name": "Epictetus",
+      "quote": "How long can you afford to put off who you really want to be? Your nobler self cannot wait any longer. Decide to be extraordinary and do what you need to do now."
+    },
+    {
+      "name": "Marcus Aurelius",
+      "quote": "Just because something is hard to master, do not think it is humanly impossible, but, if a thing is humanly possible, consider it within your reach."
+    },
+    {
+      "name": "Marcus Aurelius",
+      "quote": "Because other people are fools, must you be so too?"
+    },
+    {
+      "name": "Marcus Aurelius",
+      "quote": "The things you think about determine the quality of your mind."
+    },
+    {
+      "name": "Marcus Aurelius",
+      "quote": "Today I escaped anxiety. Or no, I discarded it, because it was within me, in my own perceptions — not outside."
+    },
+    {
+      "name": "Ralph Waldo Emerson",
+      "quote": "The world makes way for the man who knows where he is going."
+    },
+    {
+      "name": "Ryan Holiday",
+      "quote": "We must remember, there is no easy way."
+    },
+    {
+      "name": "Seneca",
+      "quote": "If a man knows not to which port he sails, no wind is favorable."
+    },
+    {
+      "name": "Seneca",
+      "quote": "We suffer more often in imagination than in reality."
+    },
+    {
+      "name": "Seneca",
+      "quote": "Difficulties strengthen the mind as labor does the body."
+    },
+    {
+      "name": "Seneca",
+      "quote": "It is the power of the mind to be unconquerable."
+    },
+    {
+      "name": "Unknown",
+      "quote": "Learning is a daily thing, wisdom an endless pursuit."
+    },
+    {
+      "name": "Thomas Edison",
+      "quote": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time."
+    },
+    {
+      "name": "Zeno of Citium",
+      "quote": "The reason why we have two ears and only one mouth is so we should listen more and talk less."
+    }
+  ]
+}

@@ -29,18 +29,6 @@ async def on_ready():
 async def on_message(message):
     if message.author == bot.user:
         return
-    
-    if message.content.startswith('!hello'):
-        random_index = random.randint(0, len(data["greetings"])-1)
-        await message.channel.send(f'{data["greetings"][random_index]["hello"]} {data["greetings"][random_index]["greeting"]}')
-    
-    if message.content.startswith('!im good'):
-        random_index = random.randint(0, len(data["positive"]) -1)
-        await message.channel.send(f'{data["positive"][random_index]["good"]}')
-
-    if message.content.startswith('!not good'):
-        random_index = random.randint(0, len(data["negative"]) -1)
-        await message.channel.send(f'{data["negative"][random_index]["bad"]}')
 
     if message.content.startswith('!quote'):
         random_index = random.randint(0, len(data["quotes"])-1)
